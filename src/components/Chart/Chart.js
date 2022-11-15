@@ -3,9 +3,9 @@ import ChartBar from './ChartBar';
 import './Chart.css';
 
 const Chart = (props) => {
-  console.log(props.dataPoints);
+  // console.log(props.dataPoints);
     const dataPointValues = props.dataPoints.map((dataPoint) => dataPoint.value);
-    console.log(dataPointValues);
+    // console.log(dataPointValues);
     const totalMaximum = Math.max(...dataPointValues);
 
   return (
